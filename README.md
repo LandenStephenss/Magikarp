@@ -1,1 +1,1 @@
-# Idle RPG Bot
+# Bot for rpg things? idk
