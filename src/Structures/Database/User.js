@@ -23,20 +23,20 @@ module.exports = (user) => {
 };
 
 // Cooldown examples
-var cooldownExample = [["commandName", `${Date.now() + cooldown}`]];
+// var cooldownExample = [["commandName", `${Date.now() + cooldown}`]];
 
 // Eventory examples;
-var example = [
-  ["LOG", 32],
-  ["EMERALD_SWORD", 2],
-];
+// var example = [
+//   ["LOG", 32],
+//   ["EMERALD_SWORD", 2],
+// ];
 // Diagram
-var diagram = [
-  [
-    ,/* ITEM NAME */
-  /* AMOUNT OF ITEM */
-  ],
-];
+// var diagram = [
+//   [
+//     ,/* ITEM NAME */
+//   /* AMOUNT OF ITEM */
+//   ],
+// ];
 
 /*
     Items can be managed using some array trickery, although im not sure how easy it will be to manage and display the items. Time will tell

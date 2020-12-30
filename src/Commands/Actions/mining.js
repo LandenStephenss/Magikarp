@@ -8,7 +8,7 @@ module.exports = class Mining extends (
     super({
       name: "mining",
       description: "Go mining to get ores and gold",
-      cooldown: 3600,
+      cooldown: 3600000,
       category: "actions",
     });
   }

@@ -8,5 +8,6 @@ module.exports = class Ready {
     this.client.logger.info(
       `${this.client.guilds.cache.size} Guilds, ${this.client.users.cache.size} Users, ${this.client.commands.size} Commands!`
     );
+
   }
 };

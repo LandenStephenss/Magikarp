@@ -21,18 +21,15 @@ module.exports = class Bot extends (
     this.logger = new Logger();
   }
   init() {
-    //  this.initMongo(this.config.mongoUrl);
+    this.initMongo(this.config.mongoUrl);
   }
 
   initMongo(uri) {
     MongoClient.connect(uri, { useUnifiedTopology: true }, (err, res) => {
       if (err) return console.error(err);
       this.userDB = res
-        .db(DEVELOPMENT ? "BotBeta" : "BotProd")
-        .collection("users");
-      this.guildDB = res
-        .db(DEVELOPMENT ? "BotBeta" : "BotProd")
-        .collection("guilds");
+        .db(DEVELOPMENT ? "MagikarpBeta" : "Magikarp")
+        .collection("Users");
     });
   }
 
