@@ -1,0 +1,14 @@
+{
+  "mining": {
+    "itemList": [
+      "copper",
+      "tin",
+      "iron",
+      "silver",
+      "gold",
+      "mithril",
+      "adamantite",
+      "rune"
+    ]
+  }
+}
