@@ -12,6 +12,7 @@ module.exports = class Ping extends (
     });
   }
   run({ client, message }) {
+      message.delete()
     return {
       embed: { description: `⏳ ${Date.now() - message.createdTimestamp} ms` },
     };
