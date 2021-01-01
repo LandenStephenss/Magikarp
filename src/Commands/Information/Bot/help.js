@@ -79,7 +79,7 @@ module.exports = class Help extends (
               value:
                 Command.config.cooldown === 0
                   ? "None"
-                  : `\`${ParseTime(Command.config.cooldown)}\``,
+                  : `\`${ParseTime(Command.config.cooldown / 1000)}\``,
             },
           ],
         },
