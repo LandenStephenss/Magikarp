@@ -1,5 +1,3 @@
-const { Message } = require("discord.js");
-
 module.exports = class Ping extends (
   require("../../../Structures/Command.js")
 ) {
@@ -11,10 +9,9 @@ module.exports = class Ping extends (
       botPerms: ["EMBED_LINKS"],
     });
   }
-  run({ client, message }) {
-      message.delete()
+  run({ message, client }) {
     return {
-      embed: { description: `⏳ ${Date.now() - message.createdTimestamp} ms` },
+      embed: { description: `⏳ ${client.ws.ping} ms` },
     };
   }
 };

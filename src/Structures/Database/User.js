@@ -22,10 +22,7 @@ module.exports = (user) => {
   };
 };
 
-// Cooldown examples
-// var cooldownExample = [["commandName", `${Date.now() + cooldown}`]];
-
-// Eventory examples;
+// inventory examples;
 // var example = [
 //   ["LOG", 32],
 //   ["EMERALD_SWORD", 2],

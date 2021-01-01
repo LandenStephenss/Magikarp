@@ -1,5 +1,8 @@
 const DBUser = require("../Structures/Database/User.js");
 const ParseTime = require("../Assets/ParseTime.js");
+const {
+  databaseUtil: { addCooldown },
+} = require("../Assets/util.js");
 module.exports = class Message {
   constructor(client) {
     this.client = client;
@@ -99,26 +102,7 @@ module.exports = class Message {
             `\u001b[36;1mCommand \u001b[31m${Command.help.name}\u001b[36;1m ran by \u001b[31m${message.author.tag} \u001b[36;1m(\u001b[31m${message.author.id}\u001b[36;1m)\u001b[39m`
           );
           if (Command.config.cooldown > 0) {
-            if (!userCooldown.filter((f) => f[0] === Command.help.name)[0]) {
-              userCooldown.push([
-                Command.help.name,
-                Date.now() + Command.config.cooldown,
-              ]);
-              this.client.userDB.updateOne(
-                { _id: message.author.id },
-                { $set: { cooldowns: userCooldown } }
-              );
-            } else {
-              userCooldown[
-                userCooldown.indexOf(
-                  userCooldown.filter((f) => f[0] === Command.help.name)[0]
-                )
-              ] = [Command.help.name, Date.now() + Command.config.cooldown];
-              this.client.userDB.updateOne(
-                { _id: message.author.id },
-                { $set: { cooldowns: userCooldown } }
-              );
-            }
+            await addCooldown(this.client.userDB, message.author, Command)
           }
           var res = await Command.run({
             client: this.client,
