@@ -1,14 +1,42 @@
 {
   "mining": {
     "itemList": [
-      "copper",
-      "tin",
-      "iron",
-      "silver",
-      "gold",
-      "mithril",
-      "adamantite",
-      "rune"
+      "Copper",
+      "Tin",
+      "Iron",
+      "Silver",
+      "Gold",
+      "Mithril",
+      "Adamantite",
+      "Runite",
+	     "Fishium"
     ]
+  }
+  "fishing": {
+    "itemList": [
+	    "Guppy",
+	    "Shrimp",
+	    "Koi",
+	    "Trout",
+	    "Salmon",
+	    "Tuna",
+	    "Lobster",
+	    "Shark",
+	    "Magikarp"
+	]
+  }
+  "woodcutting": {
+   "itemList": [
+	    "Oak",
+	    "Birch",
+	    "Maple",
+	    "Willow",
+	    "Magic",
+	    "Great",
+	    "Yew",
+	    "Cherry",
+	    "Mahogany",
+	    "Fishwood"
+	]
   }
 }
