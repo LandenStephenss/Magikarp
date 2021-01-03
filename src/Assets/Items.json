@@ -9,34 +9,34 @@
       "Mithril",
       "Adamantite",
       "Runite",
-	     "Fishium"
+      "Fishium"
     ]
-  }
+  },
   "fishing": {
     "itemList": [
-	    "Guppy",
-	    "Shrimp",
-	    "Koi",
-	    "Trout",
-	    "Salmon",
-	    "Tuna",
-	    "Lobster",
-	    "Shark",
-	    "Magikarp"
-	]
-  }
+      "Guppy",
+      "Shrimp",
+      "Koi",
+      "Trout",
+      "Salmon",
+      "Tuna",
+      "Lobster",
+      "Shark",
+      "Magikarp"
+    ]
+  },
   "woodcutting": {
-   "itemList": [
-	    "Oak",
-	    "Birch",
-	    "Maple",
-	    "Willow",
-	    "Magic",
-	    "Great",
-	    "Yew",
-	    "Cherry",
-	    "Mahogany",
-	    "Fishwood"
-	]
+    "itemList": [
+      "Oak",
+      "Birch",
+      "Maple",
+      "Willow",
+      "Magic",
+      "Great",
+      "Yew",
+      "Cherry",
+      "Mahogany",
+      "Fishwood"
+    ]
   }
 }
