@@ -1,29 +1,80 @@
 {
   "mining": {
     "itemList": [
-      "Copper",
-      "Tin",
-      "Iron",
-      "Silver",
-      "Gold",
-      "Mithril",
-      "Adamantite",
-      "Runite",
-      "Fishium"
-    ]
+      "copper",
+      "tin",
+      "iron",
+      "silver",
+      "mithril",
+      "adamantite",
+      "runite",
+      "fishium"
+    ],
+    "itemStats": {
+      "copper": {
+        "minReturn": 1,
+        "maxReturn": 5
+      },
+      "tin": {
+        "minReturn": 6,
+        "maxReturn": 10
+      },
+      "iron": {
+        "minReturn": 11,
+        "maxReturn": 15
+      },
+      "silver": {
+        "minReturn": 16,
+        "maxReturn": 20
+      },
+      "mithril": {
+        "minReturn": 21,
+        "maxReturn": 25
+      },
+      "adamantite": {
+        "minReturn": 26,
+        "maxReturn": 35
+      },
+      "runite": {
+        "minReturn": 36,
+        "maxReturn": 45
+      },
+      "fishium": {
+        "minReturn": 46,
+        "maxReturn": 55
+      }
+    }
   },
   "fishing": {
     "itemList": [
-      "Guppy",
-      "Shrimp",
-      "Koi",
-      "Trout",
-      "Salmon",
-      "Tuna",
-      "Lobster",
-      "Shark",
-      "Magikarp"
-    ]
+      "guppy",
+      "shrimp",
+      "koi",
+      "trout",
+      "salmon",
+      "tuna",
+      "lobster",
+      "shark",
+      "magikarp"
+    ],
+    "itemStats": {
+      "guppy": {
+        "minReturn": 1,
+        "maxReturn": 5
+      },
+      "shrimp": {
+        "minReturn": 6,
+        "maxReturn": 10
+      },
+      "koi": {
+        "minReturn": 11,
+        "maxReturn": 15
+      },
+      "trout": {
+        "minReturn": 16,
+        "maxReturn": 20
+      }
+    }
   },
   "woodcutting": {
     "itemList": [
