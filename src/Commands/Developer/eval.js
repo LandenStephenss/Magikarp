@@ -9,6 +9,7 @@ module.exports = class extends (
       description: "Evaluate some code because why not",
       usage: "{c} <code>",
       botPerms: ["EMBED_LINKS"],
+      category: "development"
     });
   }
   run({ client, message, args }) {

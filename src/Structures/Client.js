@@ -45,6 +45,7 @@ module.exports = class Bot extends (
       if (file.includes("assets.")) return;
       try {
         const Command = new (require(`../Commands/${file}`))();
+        Command.config.filePath = file;
         this.commands.set(Command.help.name, Command);
         for (const alias of Command.config.aliases) {
           this.aliases.set(alias, Command.help.name);

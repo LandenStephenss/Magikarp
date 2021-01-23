@@ -73,21 +73,83 @@
       "trout": {
         "minReturn": 16,
         "maxReturn": 20
+      },
+      "salmon": {
+        "minReturn": 21,
+        "maxReturn": 25
+      },
+      "tuna": {
+        "minReturn": 26,
+        "maxReturn": 30
+      },
+      "lobster": {
+        "minReturn": 31,
+        "maxReturn": 35
+      },
+      "shark": {
+        "minReturn": 36,
+        "maxReturn": 40
+      },
+      "magikarp": {
+        "minReturn": 100,
+        "maxReturn": 100
       }
     }
   },
   "woodcutting": {
     "itemList": [
-      "Oak",
-      "Birch",
-      "Maple",
-      "Willow",
-      "Magic",
-      "Great",
-      "Yew",
-      "Cherry",
-      "Mahogany",
-      "Fishwood"
-    ]
+      "oak",
+      "birch",
+      "maple",
+      "willow",
+      "magic",
+      "great",
+      "yew",
+      "cherry",
+      "mahogany",
+      "fishwood"
+    ],
+    "itemStats": {
+      "oak": {
+        "minReturn": 0,
+        "maxReturn": 5
+      },
+      "birch": {
+        "minReturn": 6,
+        "maxReturn": 10
+      },
+      "maple": {
+        "minReturn": 11,
+        "maxReturn": 15
+      },
+      "willow": {
+        "minReturn": 16,
+        "maxReturn": 20
+      },
+      "magic": {
+        "minReturn": 21,
+        "maxReturn": 25
+      },
+      "great": {
+        "minReturn": 26,
+        "maxReturn": 30
+      },
+      "yew": {
+        "minReturn": 31,
+        "maxReturn": 35
+      },
+      "cherry": {
+        "minReturn": 36,
+        "maxReturn": 40
+      },
+      "mahogany": {
+        "minReturn": 41,
+        "maxReturn": 45
+      },
+      "fishwood": {
+        "minReturn": 46,
+        "maxReturn": 50
+      }
+    }
   }
 }

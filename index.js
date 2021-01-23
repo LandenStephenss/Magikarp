@@ -4,7 +4,9 @@ const { readdir } = require("fs");
 Client.init();
 
 readdir("./src/Commands", (err, files) => {
-  if (err) return console.error(err);
+  if (err) {
+    return console.error(err);
+  }
   for (const command of files) {
     Client.loadCommand(command);
   }
